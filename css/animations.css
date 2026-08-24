@@ -1,1 +1,0 @@
-.magnetic{position:relative;overflow:hidden}.magnetic:after{content:"";position:absolute;inset:auto auto -60% -20%;width:80%;height:160%;background:rgba(255,255,255,.25);transform:rotate(20deg);transition:.35s}.magnetic:hover:after{left:110%}.pulse-dot{width:.65rem;height:.65rem;border-radius:50%;background:#22c55e;box-shadow:0 0 0 8px rgba(34,197,94,.14)}
