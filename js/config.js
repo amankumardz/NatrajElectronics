@@ -1,0 +1,17 @@
+const BUSINESS_CONFIG = {
+  name: "Natraj Electronics",
+  tagline: "Trusted Products. Expert Service. Local Support.",
+  phone: "",
+  whatsapp: "",
+  email: "",
+  address: "[ADDRESS PLACEHOLDER]",
+  locationLabel: "Natraj Electronics, coordinates 25.8860802, 87.193585",
+  ownerName: "[OWNER NAME]",
+  ownerBio: "[OWNER BIO]",
+  ownerProfile: "[OWNER PROFILE LINK]",
+  instagram: "",
+  facebook: "",
+  canonicalBaseUrl: "https://your-username.github.io/natraj-electronics/",
+  googleMapsUrl: "https://www.google.com/maps/place/Natraj+Electronics/@25.8860802,87.1910047,1127m/data=!3m2!1e3!4b1!4m6!3m5!1s0x39efc245139969ff:0xe847f71d22bc1adf!8m2!3d25.8860802!4d87.193585!16s%2Fg%2F11gbnjrpgz!5m1!1e2?entry=ttu&g_ep=EgoyMDI2MDgxOS4wIKXMDSoASAFQAw%3D%3D",
+  openingHours: ["[OPENING HOURS PLACEHOLDER]"],
+};
