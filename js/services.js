@@ -1,10 +1,12 @@
 const SERVICES = [
-  { title: "Electronics Sales", icon: "⌁", description: "Quality electronics for home, office, and business requirements. Product range is editable as inventory is confirmed." },
-  { title: "Repair & Maintenance", icon: "⚙", description: "Troubleshooting and repair support for eligible electronics. Exact repair categories can be updated here." },
-  { title: "Installation", icon: "▣", description: "Product installation and setup assistance for confirmed products and service areas." },
-  { title: "Product Consultation", icon: "◈", description: "Guidance to help customers choose products based on requirement, usage, and budget." },
-  { title: "After-Sales Support", icon: "✓", description: "Customer-first assistance after purchase, with support details editable from this file." },
-  { title: "B2B Solutions", icon: "◎", description: "Bulk requirements for offices, shops, institutions, hospitality, and commercial spaces." }
+  { title: "Mobile Repair", icon: "📱", cta: "Repair Your Mobile", messageKey: "repair", description: "Fast and reliable mobile repair assistance after checking your device and problem." },
+  { title: "Electronics Repair", icon: "🛠️", cta: "Request Repair", messageKey: "repair", description: "Troubleshooting and repair support for electronics and relevant accessories." },
+  { title: "Accessories", icon: "🎧", cta: "Explore Accessories", messageKey: "accessories", description: "Purchase mobile and electronics accessories; current availability can be confirmed by enquiry." },
+  { title: "Wiring & Electrical", icon: "🔌", cta: "Ask About Items", messageKey: "general", description: "Wiring and electrical items for everyday requirements." },
+  { title: "Fans & Coolers", icon: "❄️", cta: "View Options", messageKey: "fans", description: "Fans, coolers and related accessories for seasonal and daily comfort needs." },
+  { title: "DJ & Audio", icon: "🔊", cta: "Ask About DJ Equipment", messageKey: "dj", description: "DJ sets, audio equipment, microphones, cables and related accessories." },
+  { title: "B2B", icon: "🏢", cta: "B2B Enquiry", messageKey: "b2b", description: "Bulk and business requirements for commercial customers and institutions." },
+  { title: "EMI", icon: "💳", cta: "Ask About EMI", messageKey: "emi", description: "Flexible EMI options for eligible purchases. Ask the team for available options." }
 ];
-const TRUST_ITEMS = ["Local & Accessible", "Product Expertise", "Repair Support", "Personal Assistance", "Business Solutions", "After-Sales Support"];
-const B2B_ITEMS = ["Office electronics", "Computers & accessories", "CCTV & security", "TVs/displays", "Networking equipment", "Appliances", "Audio systems", "Bulk purchases", "Installation", "Maintenance"];
+const TRUST_ITEMS = ["Personal Assistance", "Repair Support", "Wide Range", "Business Support", "EMI Options", "Local Convenience"];
+const B2B_ITEMS = ["Offices", "Shops", "Schools", "Coaching centres", "Hotels", "Restaurants", "Institutions", "Small businesses", "Contractors", "Event/DJ businesses", "Other commercial customers"];
